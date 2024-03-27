@@ -4,6 +4,13 @@
     width: 20px;
 }
 
+/*Quiénes somos*/
+
+#quienes-somos i {
+        display: flex; /* Convierte el ícono en un bloque */
+        justify-content: center; /* Centrar horizontalmente */
+        align-items: center;
+    }  
 /* Cards */
 
 .card-img-top {
