@@ -1,4 +1,23 @@
+
+body {
+    color: white;
+    background-color: black;
+}
+
 /* Navbar */
+
+.navbar {
+    background-color: rgb(47, 150, 162)
+    ;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #ffffff;
+}
 
 .viajes-svg {
     width: 20px;
@@ -7,18 +26,39 @@
 /*Quiénes somos*/
 
 #quienes-somos i {
-        display: flex; /* Convierte el ícono en un bloque */
-        justify-content: center; /* Centrar horizontalmente */
+        display: flex;
+        justify-content: center;
         align-items: center;
-    }  
+        background-color:  rgb(89, 202, 240);
+        font-size: 24px;
+    }
+
+
 /* Cards */
 
 .card-img-top {
-    max-height: 150px;
+    width: 100%;
+    height: 120px;
+}
+
+.card {
+    background-color:  rgb(89, 202, 240);
+    color: #ffffff;
+}
+
+
+#contacto button {
+    background-color: rgb(89, 202, 240);
+    border: #ffffff;
 }
 
 /* Footer */
+footer {
+    background-color: rgb(89, 202, 240);
+}
+
 footer a {
         text-decoration: none;
         color: inherit;
+        font-size: 24px
 }
