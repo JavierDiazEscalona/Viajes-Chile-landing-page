@@ -9,3 +9,9 @@
 .card-img-top {
     max-height: 150px;
 }
+
+/* Footer */
+footer a {
+        text-decoration: none;
+        color: inherit;
+}
