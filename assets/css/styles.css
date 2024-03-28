@@ -2,13 +2,14 @@
 body {
     color: white;
     background-color: black;
+    font-family: 'Raleway';
+    font-weight: 100;
 }
 
 /* Navbar */
 
 .navbar {
-    background-color: rgb(47, 150, 162)
-    ;
+    background-color: rgb(47, 155, 167);
 }
 
 .navbar a {
@@ -33,17 +34,24 @@ body {
         font-size: 24px;
     }
 
+@media (max-width: 576px) {
+    #quienes-somos {
+        display: none;
+    }
+}
 
 /* Cards */
 
 .card-img-top {
     width: 100%;
-    height: 120px;
+    min-height: 120px;
+    max-height: 150px;
 }
 
 .card {
     background-color:  rgb(89, 202, 240);
     color: #ffffff;
+
 }
 
 
