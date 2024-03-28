@@ -1,3 +1,4 @@
+/* Smooth Scroll */
 $(document).ready(function(){
         $("a").on('click', function(event) { 
             if (this.hash !== "") {
@@ -13,6 +14,7 @@ $(document).ready(function(){
     }); 
 });
 
+/* Alert de aviso al presionar botón "Enviar" */
 $(document).ready(function() {
     $("#boton-enviar").click(function() {
         alert("¡Tu mensaje ha sido enviado con éxito!");
