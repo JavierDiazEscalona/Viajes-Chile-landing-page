@@ -12,3 +12,9 @@ $(document).ready(function(){
         }
     }); 
 });
+
+$(document).ready(function() {
+    $("#boton-enviar").click(function() {
+        alert("¡Tu mensaje ha sido enviado con éxito!");
+    });
+});
